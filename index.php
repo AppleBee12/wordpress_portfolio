@@ -1,1 +1,19 @@
-<h1>제목</h1>
+<?php get_header() ?>
+
+  <div id="content" class="two-thirds">
+      
+    <?php
+      if ( have_posts() ) :
+        while ( have_posts() ) : the_post();
+            the_content();
+        endwhile;
+      else :
+          _e( '내용이 없습니다.', 'applebee' );
+      endif;
+    ?>
+      
+  </div><!-- #content-->      
+
+  <?php get_sidebar() ?>
+
+  <?php get_footer() ?>

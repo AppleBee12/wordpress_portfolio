@@ -25,9 +25,7 @@
 		<div class="third quarter widget-area">
 		
 			<div class="widget-container">
-				<h3 class="widget-title">최근 공지</h3>
-        <ul>
-          <li>공지사항 글</li>
+				<h3>A ss</h3>
         </ul>
 				<p>A widget area in the footer - use plugins and widgets to populate this.</p>
 			</div><!-- .widget-container -->
